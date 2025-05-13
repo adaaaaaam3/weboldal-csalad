@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="urlap.css">
+    <title>Teszt Űrlap</title>
+    <style>
+        input, select, textarea, fieldset { margin-bottom: 10px; }
+
+        input[type="reset"], input[type="submit"] {
+            background-color: #4CAF50;
+            color: #FFF;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            width: 150px;
+            height: 40px;
+        }
+
+        input:focus { background-color: #BFFFC3; }
+      </style>
+</head>
+<body>
+    <h1>Teszt Űrlap</h1>
+    <form method="POST">
+         <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="full-name">Teljes név:</label>
+            <input type="text" id="full-name" name="full-name"/> <br/><br/>
+            <label for="email">E-mail cím:</label>
+            <input type="email" id="email" name="email"/> <br/><br/>
+            <label for="passwd">Jelszó:</label>
+            <input type="password" id="passwd" name="passwd"/> <br/><br/>
+            <input type="submit"/>
+          </fieldset>
+    </form>
+    <form>
+        <h2>Mi a kedvenc hobbid?:</h2>
+        <select>
+          <option value="foci">foci</option>
+          <option value="röplapda" selected>röplapda</option>
+          <option value="kézilabda">kézilabda</option>
+          <option value="raspberry">Egyéb</option>
+        </select>
+      </form>
+      <form>
+        <h2>A kedvenc tanórád?:</h2>
+        <select>
+          <option value="Matematika">Matematika</option>
+          <option value="Irodalom" selected>Irodalom</option>
+          <option value="Nyelvtan">Nyelvtan</option>
+          <option value="Testnevelés">Testnevelés</option>
+          <option value="raspberry">Egyéb</option>
+        </select>
+    </form>
+    <form>
+        <input type="reset" name="reset-btn" value="Adatok törlése"/>
+        <input type="submit" name="submit-btn" value="Adatok elküldése"/>
+    </form>
+    
+</body>
+</html>
