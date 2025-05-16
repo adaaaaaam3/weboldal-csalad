@@ -1,0 +1,35 @@
+<h2>Története</h2>
+    <p>A történetvezérelt játékok közül kiemelkedett a Half-Life 2 (2004), amely nemcsak az FPS műfajt újította meg,
+      hanem példát mutatott arra is, hogyan lehet egy akciójátékot mély narratívával ötvözni. A Valve által fejlesztett
+      játék Source motorja nemcsak látványos, hanem technikailag is előremutató volt: lehetővé tette például a tárgyak
+      fizikai manipulációját, amit a játék látványosan be is épített a játékmenetbe.</p>
+
+      <p>A nyílt világú játékok is ebben az időszakban értek be igazán. A Grand Theft Auto: San Andreas (2004) hatalmas,
+      élő, lélegző világot tárt a játékosok elé, ahol a fő történeti küldetéseken túl számtalan melléktevékenységet
+      lehetett végezni: edzeni, ruhát venni, kaszinózni vagy éppen ejtőernyőzni. A szabadság érzése és a városok közötti
+      utazás lehetősége teljesen új élményt jelentett.</p>
+
+      <p>Közben az online világ is kezdte meghódítani a számítógépes játékokat. A World of Warcraft 2004-es megjelenésével
+      új korszak kezdődött az MMORPG-k (tömegesen játszható online szerepjátékok) történetében. A játékban Azeroth
+      világában kalandozhattunk több ezer játékossal együtt, céheket alapíthattunk, csatákat vívhattunk, és részt
+      vehettünk a világ alakulásában. A WoW nemcsak technológiai, hanem közösségi szempontból is mérföldkő volt –
+      milliók kapcsolódtak be, barátságok, sőt házasságok is születtek az online térben.</p>
+
+      <p>A kompetitív játékok terén a Counter-Strike (2000–2004) jelentette a csúcsot. A játék 1.6-os verziója, majd később
+      a Counter-Strike: Source változata meghatározta az e-sport hajnalát. LAN-partik, versenyek, klánháborúk váltak
+      hétvégi programokká – különösen Kelet-Európában és Dél-Koreában, ahol az e-sport már ekkor professzionális szintre
+      lépett.</p>
+
+      <p>Ugyanebben az időszakban indult útjára a digitális játékterjesztés is. A Valve 2003-ban elindította a Steam
+      platformot, amely forradalmasította, hogyan vásárolunk és frissítünk játékokat. Az interneten keresztül letölthető
+      és automatikusan frissülő játékok kényelmessé és elérhetővé tették a videojátékokat világszerte. A Steam nemcsak a
+      nagy kiadók játékait kínálta, hanem helyet adott a független fejlesztőknek is – így születhettek meg olyan egyedi
+      alkotások, mint a Braid vagy a World of Goo, amelyek már a 2010-es évek indie-forradalmának előhírnökei voltak.</p>
+
+      <p>A 2000 és 2010 közötti évtized során tehát a számítógépes játékok szinte minden területe gyökeresen megváltozott.
+      A játékosok már nemcsak passzív résztvevők voltak, hanem közösségek tagjai, alkotók, sőt versenyzők. A videojáték
+      többé nem csupán technikai mutatvány lett, hanem kulturális élmény, amely új történetmesélési formákat, új
+      műfajokat és új közösségi modelleket hozott létre.</p>
+
+      <p>Ez az időszak nemcsak a nosztalgia miatt emlékezetes: ez volt az az évtized, amikor a számítógépes játékok valóban
+      felnőttek.</p>

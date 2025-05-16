@@ -1,0 +1,105 @@
+body{
+    background-image: url(mountains-1587287_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 17px;
+}
+.navbar li{
+    float: left;
+}
+.navbar {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 20px; 
+    width: 100%;
+    margin: 2px auto;
+    position: sticky;
+    top: 0;
+}
+.container{
+    background-color:white;
+    border-radius: 20px;
+}
+.container p{
+    padding: 5px;
+    margin: 50px;
+    font-size: 18px;
+}
+.felsorolás{
+    margin: 50px;
+
+}
+li{
+    padding: 5px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 12px;
+}
+.card-content{
+    padding: 5px;
+}
+.card-container p{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-right: -5px;
+}
+.card-container h2{
+    padding: 5px;
+    margin-bottom: auto;
+}
+.szöveg{
+    font-size: 20px;
+    font-style: italic;
+    h2{
+        margin-left: 50px;
+    }
+}
+.card-container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 12px;
+}
+.card-content2{
+    padding: 5px;
+    margin-left: 300px;
+
+}
+.card-content2 h2{
+    margin-left: 25px;
+}
+.card-container2 img{
+    object-fit: cover;
+    height: 236;
+    width: 304;
+}
+.űrlap{
+    margin-left: 45px;
+    padding: 10px;
+    font-size: 20px;
+}
+.űrlap a{
+    text-decoration: none;
+    color: blue;
+}
