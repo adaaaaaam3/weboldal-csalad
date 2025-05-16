@@ -1,0 +1,49 @@
+body{
+  background-image: url(parliament-1440679_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  
+}
+
+h1, h2 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: bold;
+  color: navy;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  color: navy;
+}
+
+img.float-start {
+  max-width: 300px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  
+}
+
+
+
+.container{
+  background-color:white;
+  border-radius: 20px; 
+} 
+
+
+footer{
+  color: yellow;
+}
+
+
+
+
+
+
+

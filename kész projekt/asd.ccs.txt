@@ -1,0 +1,45 @@
+body{
+    background-image: url(mountains-1587287_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+}
+.navbar {
+    background-color: #007BFF;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 20px; 
+    width: 100%;
+    margin: 2px auto;
+}
+.container{
+    background-color:white;
+    border-radius: 20px; 
+}
+.container p{
+    padding: 5px;
+    margin: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
