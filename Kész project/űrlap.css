@@ -1,3 +1,4 @@
+
 body
 {
     background-image: url(images.jfif);
@@ -7,7 +8,28 @@ body
     background-size: cover;
     margin: 0px; }
 
-    .container{
-        background-color:white;
-        border-radius: 5px; 
+body {
+      background-color: #1e1e2f;
+      color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #2c2c3f;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    .form-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #00ffc3;
+    }
+    .btn-custom {
+      background-color: #00ffc3;
+      color: #000;
+    }
+    .btn-custom:hover {
+      background-color: #00cba0;
     }

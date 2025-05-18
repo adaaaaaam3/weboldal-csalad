@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="űrlap.css">
-    
-    <title>Űrlap</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weboldal család – Egyoldalas verzió</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="űrlap.css">
+  <style>
+        input, select, textarea, fieldset { margin-bottom: 10px; }
+  </style>
+
 </head>
 <body>
-    <header>
+
+<header>
   
 
-        <nav id="navbar2" class="navbar navbar-expand-lg bg-primary fix-top">
-          <div class="container">
-            <a class="navbar-brand" href="#">Weboldal Család</a>
-        
-            
-        
-            <div class="collapse navbar-collapse" id="navbarsExample">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="játék .html">1960-90</a></li>
-                <li class="nav-item"><a class="nav-link" href="90evek.html">2000-2010</a></li>
-                <li class="nav-item"><a class="nav-link" href="tablazat.html">2010-2025</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        
-        </header>
-        
-        
-        
-        <div class="container p-0">
-        
-        
-        <section class="container pt-5" style="margin-top:70px;">
-          <h1 class="mb-4">Üdvözlünk!</h1>
-          <div class="clearfix">
-            <p>
-            Itt egy kis informácó gyűjtés rólad!
-            </p>
-            <p>
-              Válaszolj a kérdésekre és regiszrálj!
-        
-        
-            </p>
-            <p>
-              
-              
-        
-            </p>
-          </div>
-          <form action="feldolgoz.php">
+<nav id="navbar2" class="navbar navbar-expand-lg bg-primary fix-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Weboldal Család</a>
+
+    
+
+    <div class="collapse navbar-collapse" id="navbarsExample">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="játék .html">1960-90</a></li>
+        <li class="nav-item"><a class="nav-link" href="90evek.html">2000-2010</a></li>
+        <li class="nav-item"><a class="nav-link" href="tablazat.html">2010-2025</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+
+<div class="container">
+    <div class="form-container">
+      <h2 class="form-title">Videójáték Véleményűrlap</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Név</label>
+          <input type="text" class="form-control" id="name" placeholder="Írd be a neved">
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email cím</label>
+          <input type="email" class="form-control" id="email" placeholder="pl. gamer@email.hu">
+        </div>
+
+        <div class="mb-3">
+          <label for="game" class="form-label">Kedvenc játék</label>
+          <input type="text" class="form-control" id="game" placeholder="Írd be a játék nevét">
+        </div>
+
+        <div class="mb-3">
+          <label for="platform" class="form-label">Platform</label>
+          <select class="form-select" id="platform">
+            <option>PC</option>
+            <option>PlayStation</option>
+            <option>Xbox</option>
+            <option>Nintendo</option>
+            <option>Mobil</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="rating" class="form-label">Értékelés (1-10)</label>
+          <input type="range" class="form-range" min="1" max="10" id="rating">
+        </div>
+
+        <div class="mb-3">
+          <label for="comment" class="form-label">Vélemény</label>
+          <textarea class="form-control" id="comment" rows="4" placeholder="Írd le, mit gondolsz a játékról"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-custom w-100">Beküldés</button>
+      </form>
+    </div>
+  </div>
 
 
 
-            
-            <fieldset>
-            <legend>Regisztrációs adatok</legend>
-            <label>Teljes név: <input type="text" name="full-name"/></label> <br/>
-            <label>Jelszó: <input type="password" name="passwd" required/></label> <br/>
-            <label>Születési dátum: <input type="date" name="date-of-birth" min="1920-01-01"/></label> <br/>
-            <label>E-mail: <input type="email" name="email" required/></label> <br/>
-        </fieldset>
 
-          </form>
+<footer>
 
-        </body>
+</footer>
 </body>
 </html>
